@@ -1,0 +1,93 @@
+.navbar-main{
+max-width: 1000px;
+margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* max-width: 600px; */
+    height: 100px;
+/* background: rgba(140, 172, 44, 0.133); */
+}
+.company-img-text{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    /* justify-content: space-around; */
+}
+.login-button-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: end;
+    margin-right: 20px;
+    gap: 4rem;
+}
+
+.company-logo{
+    height: 50px;
+    width: 70px;
+    align-items: center;
+}
+
+
+.text1{
+    margin-left: 2rem;
+}
+
+.clickme-button{
+    height: 30px;
+    width: 150px;
+    /* align-items: center; */
+    border-radius: 40px;
+    background: orangered;
+    color: aliceblue;
+    border: 1px solid wheat;
+    margin: 2rem;
+}
+
+.firstComponent{
+    display: flex;
+    align-items: center;
+}
+
+.dashboardImg{
+    width: 50%;
+    
+    transform: rotate(30deg);
+   /* padding-top: 100px;
+   padding-left: 100px; */
+}
+
+.loremPara1-navbar{
+font-size: 12px;
+font-weight: 500;
+}
+
+
+.text-right {
+    text-align: right;
+    padding: 3rem;
+  }
+
+
+  .word-container {
+    max-width: 800px;
+    padding-top: 2rem;
+    margin: 0 auto; /* Center-align the container */
+  }
+  
+  .word-container h3 {
+    text-align: center; /* Center-align the text */
+    margin: 0; /* Remove default margin */
+    line-height: 1.4; /* Increase line height for better readability */
+  }
+  
+  .word-container h3 > span {
+    display: inline-block;
+    margin: 2px 4px; /* Adjust spacing between words */
+  }
+  

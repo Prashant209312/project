@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-section-laptop {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.left-section-lapo {
+    width: 45%;
+}
+
+.right-section-cont {
+    width: 55%;
+}
+
+#book-com {
+    width: 700px;
+}
+
+.Happy-content {
+    font-size: 35px;
+    color: black;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding-top: 6rem;
+    max-width: 55%;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+#cool {
+    font-size: 18px;
+    color: #33475b;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1rem;
+    line-height: 28px;
+}
+
+/* ************************************************************************************* */
+.container2 {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.left-class-easier {
+    width: 45%;
+    padding: 2rem 0rem 0rem 8rem;
+}
+
+.right-class-content {
+    width: 55%;
+    padding: 2rem 0rem 0rem 0rem;
+}
+
+.payroll {
+    color: black;
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.58px;
+}
+
+.wow {
+    font-size: 34px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    padding-top: 8px;
+    font-weight: 600;
+    max-width: 80%;
+    line-height: 45px;
+}
+
+.milzo {
+    max-width: 78%;
+    color: #33475b;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    text-align: left;
+}
+
+.dark-content {
+    max-width: 78%;
+    color: tomato;
+    padding-top: 6px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.pritty {
+    color: #33475b;
+    padding-top: 6px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+/* ******************************************************************************* */
+.img-main-section {
+    margin-top: 3rem;
+}
