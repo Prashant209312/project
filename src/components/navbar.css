@@ -1,93 +1,107 @@
-.navbar-main{
-max-width: 1000px;
-margin: 0 auto;
+.navbar-main {
+    /* max-width: 1000px; */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    /* max-width: 600px; */
+    padding: 0px 20px 0px 80px;
     height: 100px;
-/* background: rgba(140, 172, 44, 0.133); */
+    background: rgba(140, 172, 44, 0.133);
 }
-.company-img-text{
+
+.company-img-text {
     display: flex;
     align-items: center;
     gap: 30px;
+    /* background-color: #fff; */
+    margin-left: "40px";
     /* justify-content: space-around; */
 }
-.login-button-text{
+
+.login-button-text {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
-    justify-self: end;
-    margin-right: 20px;
-    gap: 4rem;
+    /* justify-self: end; */
+    margin-right: 10px;
+    gap: 2rem;
 }
 
-.company-logo{
-    height: 50px;
-    width: 70px;
-    align-items: center;
+.company-logo {
+    height: 40px;
+    width: 100px;
+    /* margin-right: "40px"; */
 }
 
 
-.text1{
-    margin-left: 2rem;
+.text1 {
+    /* margin-left: 4rem; */
 }
 
-.clickme-button{
-    height: 30px;
-    width: 150px;
-    /* align-items: center; */
+.clickme-button {
+
     border-radius: 40px;
     background: orangered;
     color: aliceblue;
     border: 1px solid wheat;
-    margin: 2rem;
+    padding: 10px 20px;
 }
 
-.firstComponent{
+/* -------------------------------------------- */
+.firstComponent {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    background-color: aqua;
+    height: '1000px';
+
+    padding: 10px;
 }
 
-.dashboardImg{
-    width: 50%;
-    
+.dashboardImg {
+    width: 30%;
+
     transform: rotate(30deg);
-   /* padding-top: 100px;
-   padding-left: 100px; */
+    margin-top: "50px";
 }
 
-.loremPara1-navbar{
-font-size: 12px;
-font-weight: 500;
+.loremPara1-navbar {
+    font-size: 12px;
+    font-weight: 500;
 }
 
 
 .text-right {
     text-align: right;
-    padding: 3rem;
-  }
+    /* padding: 3rem; */
+    width: 50%;
+}
 
 
-  .word-container {
+.word-container {
     max-width: 800px;
     padding-top: 2rem;
-    margin: 0 auto; /* Center-align the container */
-  }
-  
-  .word-container h3 {
-    text-align: center; /* Center-align the text */
-    margin: 0; /* Remove default margin */
-    line-height: 1.4; /* Increase line height for better readability */
-  }
-  
-  .word-container h3 > span {
+    margin: 0 auto;
+    /* Center-align the container */
+}
+
+.word-container h3 {
+    text-align: center;
+    /* Center-align the text */
+    margin: 0;
+    /* Remove default margin */
+    line-height: 1.4;
+    /* Increase line height for better readability */
+}
+
+.word-container h3>span {
     display: inline-block;
-    margin: 2px 4px; /* Adjust spacing between words */
-  }
-  
+    margin: 2px 4px;
+    /* Adjust spacing between words */
+}

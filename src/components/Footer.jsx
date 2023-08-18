@@ -8,7 +8,7 @@ function Footer() {
             <div style={{ position: 'relative', backgroundColor: '#ccc', borderRadius: '120px 0px 0px 0px', padding: "2px" }}>
                 <div style={{ display: 'flex', padding: '50px 50px 20px 50px', borderRadius: '45px 0px 0px 0px' }}>
                     <div style={{ maxWidth: "350px", padding: "20px 10px 0px 20px" }}>
-                        <img src={logo} alt='logo' style={{ width: '230px' }} />
+                        <img src={logo} alt='logo' style={{ width: '200px', height: '50px' }} />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores at quidem nemo sequi voluptatibus excepturi doloremque repellendus quos delectus nihil!</p>
                         <div style={{ display: 'flex' }}>
 

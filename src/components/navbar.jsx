@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import image from "./Images/pureCodeImg.png";
+import image from "./Images/HRmatter.png";
 import dashboardImg from "./Images/dashboard-examples.png";
 
 export default function Navbar() {
@@ -16,16 +16,14 @@ export default function Navbar() {
         </div>
         <div className="login-button-text">
           <h5>Login</h5>
-          <button className="clickme-button"> Click Me</button>
+          <button className="clickme-button"> Click Me now</button>
         </div>
       </div>
       <div className="firstComponent">
         <img className="dashboardImg" src={dashboardImg} />
         <div className="text-right">
           <h2 className="h2-Heading-navbar">
-            {" "}
             Powering The Future Of <br /><span className="work">Work</span>
-
           </h2>
           <div className="loremPara1-navbar">
             Lorem ipsum dolor sit amet consectetur adipisicing
@@ -36,7 +34,6 @@ export default function Navbar() {
           </div>
           <button className="clickme-button">Getting Started</button>
         </div>
-
       </div>
       <div className="word-container">
         <h3>
