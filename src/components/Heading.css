@@ -1,5 +1,6 @@
 .container {
     width: 100%;
+    margin-bottom: 4rem;
 }
 
 .subContainer {
@@ -28,16 +29,23 @@
 
 }
 
-h1,
-p {
+.part-2>h1 {
+    text-align: right;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.part-2>p {
     text-align: right;
 }
 
+
+
 .btn {
     background-color: rgb(211, 34, 28);
-    color: aliceblue;
+    color: white;
     border: 1px solid wheat;
     border-radius: 20px;
     height: 40px;
-    width: 200px;
+    width: 150px;
 }

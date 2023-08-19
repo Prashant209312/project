@@ -1,58 +1,83 @@
-.SecondContainer{
-    max-width:1000px;
-    margin-left: 15rem;
-   
+.SecondContainer {
+  width: 100%;
+  margin-top: 8rem;
+
 }
 
-.text-left-secondContainer{
-    padding: 3rem;
+.text-left-secondContainer {
+  padding: 0rem 4rem;
 }
 
-.loremPara1-secondContainer{
-    text-align: left;
-    padding: 9px;
-    font-size: 13px;
-    font-weight: 600;
-  }
+.h2-Heading {
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+  letter-spacing: 1px;
+}
 
-  .icons-container {
-    display: flex;
-    align-items: flex-start;
-    /* justify-content: space-around; */
-    flex-wrap: wrap;
-    gap: 8rem;
-    padding: 3rem;
-  }
-  
-  .progress-circle {
-    width: 125px;
-    height: 125px;
-    border-radius: 50%;
-    border: 4px solid #b41b1bc2; /* Grey border */
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    margin-bottom: 10px; /* Space between icons and text */
-  }
-  
-  
-  
-  .icon {
-    color: rgb(196, 41, 41); /* Set the color for the icon */
-  }
-  
-  .icon-text {
-    text-align: center;
-    width: 120px; /* Adjust to match icon width */
-    font-size: 12px; /* Adjust font size as needed */
-  }
-  
-  .icon-with-text3{
-    margin-top: -8rem;
-    
-  }
-  .icon-with-text2{
-    margin-top: -4rem;
-    
-  }
+.loremPara1-secondContainer {
+  text-align: left;
+  padding-top: 16px;
+  font-size: 16px;
+  line-height: 25px;
+  max-width: 50%;
+  color: black;
+  opacity: 0.9;
+}
+
+.icons-container {
+  display: flex;
+  align-items: flex-start;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+  gap: 6rem;
+  padding: 6rem;
+
+}
+
+.progress-circle {
+  width: 200px;
+  height: 200px;
+
+  border-radius: 50%;
+  border: 4px solid #b41b1bc2;
+  /* Grey border */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 10px;
+  /* Space between icons and text */
+}
+
+.icon {
+  color: rgb(196, 41, 41);
+  /* Set the color for the icon */
+}
+
+.icon-text {
+  text-align: center;
+  width: 240px;
+  /* Adjust to match icon width */
+  font-size: 17px;
+  font-weight: 600;
+  color: black;
+  padding-top: 5px;
+}
+
+.short {
+  font-size: 13px;
+  color: #33475b;
+  text-align: center;
+  width: 240px;
+  padding-top: 15px;
+  line-height: 20px;
+}
+
+.icon-with-text3 {
+  margin-top: -9rem;
+}
+
+.icon-with-text2 {
+  margin-top: -5rem;
+}

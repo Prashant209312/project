@@ -9,7 +9,7 @@ function Heading() {
                 </div>
                 <div className='part-2'>
                     <h1>Interactive demo </h1>
-                    <p>Lorem ipsum dolor sit amet consectetuendi aut molestiae temporibus ea, a aliquid id?</p>
+                    <p>Lorem ipsum dolor sit amet consectetuendi aut molestiae <span style={{ color: 'orangered' }}>temporibus ea, a aliquid id?</span></p>
                 </div>
             </div>
         </div>

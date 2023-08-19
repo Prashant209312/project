@@ -1,7 +1,7 @@
 import React from 'react'
 import img1 from "./Images/computer.png";
 import "./MainContainer.css"
-// import img2 from "./images/Screenshot (17).png";
+import img4 from "./Images/Scr.png";
 function MainContainer() {
     return (
         <div>
@@ -11,7 +11,7 @@ function MainContainer() {
                 </div>
                 <div class="right-section-cont">
                     <p class="Happy-content">
-                        Benefits.Coverage that'll make everyone happy .
+                        Benefits.Coverage that'll make <br /> everyone happy .
                     </p>
                     <p id="cool">
                         HRmatters,simplifies the process of curating .and providing great
@@ -42,7 +42,12 @@ function MainContainer() {
             </div>
             {/* **************************************************************************** */}
             <div class="img-main-section">
-                {/* <img src={img2} id="flower-img" alt="logo" /> */}
+                <img src={img4} id="flower-img" alt="logo" />
+            </div>
+            <div className='complete'>
+                <h3>A complete HR Software</h3>
+                <h5>Lorem ipsum dolor sit amet.</h5>
+                <button>Subscribe and Like</button>
             </div>
         </div>
 

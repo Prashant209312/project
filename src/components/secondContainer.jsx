@@ -10,43 +10,54 @@ export default function SecondContainer() {
     <div className="SecondContainer">
       <div className="text-left-secondContainer">
         <h2 className="h2-Heading">
-          {" "}
-          One Platform Countless Possibilities  <br />
-          
+
+          One Platform Countless Possibilities <br />
         </h2>
         <div className="loremPara1-secondContainer">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          <br /> Sapiente excepturi dolorem quos.
-          <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          <br /> Sapiente excepturi dolorem quos.
+          We are determind to reinvent the way HR is perceived in companies
+          across the Middle East.It is time to focus on what really moves an
+          oganization forward - its people !
+          <br />
+          Hr is not administring staff. it is about enging your team equipping
+          them with the right tools to
+          <br />
+          activative their full potential - that's what HRmatters. is all
+          about .
         </div>
 
         <div class="icons-container">
           <div class="icon-with-text1">
             <div class="progress-circle">
-            <MdOutlineLibraryBooks size={100} className="icon" />
+              <MdOutlineLibraryBooks size={120} className="icon" />
             </div>
-            <div class="icon-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </div>
+            <div class="icon-text">Sophisticated Scheduling</div>
+            <p className="short">
+              No more for Schedule employee.Schedule with
+              <br />
+              HRmatters and share to employee real
+            </p>
           </div>
 
           <div class="icon-with-text2">
             <div class="progress-circle">
-              <HiOutlineUserGroup size={100} className="icon" />
+              <HiOutlineUserGroup size={120} className="icon" />
             </div>
-            <div class="icon-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </div>
+            <div class="icon-text">Reliable Timeclock Attendence</div>
+            <p className="short">
+              No more for Schedule employee.Schedule with HRmatters and share
+              to employee real
+            </p>
           </div>
 
           <div class="icon-with-text3">
             <div class="progress-circle">
-              <TbChecklist size={100} className="icon" />
+              <TbChecklist size={120} className="icon" />
             </div>
-            <div class="icon-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </div>
+            <div class="icon-text">Labor Law Compliant</div>
+            <p className="short">
+              No more for Schedule employee.Schedule with HRmatters and share
+              to employee real
+            </p>
           </div>
         </div>
       </div>

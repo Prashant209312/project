@@ -1,8 +1,9 @@
 .navbar-main {
     /* max-width: 1000px; */
     margin: 0;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+
 
 }
 
@@ -12,7 +13,7 @@
     align-items: center;
     padding: 0px 20px 0px 80px;
     height: 100px;
-    background: rgba(140, 172, 44, 0.133);
+    /* background: rgba(140, 172, 44, 0.133); */
 }
 
 .company-img-text {
@@ -54,54 +55,89 @@
 }
 
 /* -------------------------------------------- */
+
 .firstComponent {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
-    background-color: aqua;
-    height: '1000px';
+    text-align: center;
+    /* height: '1000px'; */
+    width: 100%;
 
-    padding: 10px;
+    margin-top: 2rem;
 }
 
 .dashboardImg {
-    width: 30%;
+    width: 55%;
+    height: "100px";
+    transform: rotate(32deg);
+    margin-top: 30px;
+    padding: 0rem 6rem;
 
-    transform: rotate(30deg);
-    margin-top: "50px";
+}
+
+.h2-Heading-navbar {
+    font-size: 35px;
+    padding: 0rem 5rem 0rem 0rem;
+    font-family: "Mulish", sans-serif;
 }
 
 .loremPara1-navbar {
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 17px;
+    font-weight: 400;
+    max-width: "160px";
+    text-align: end;
+    padding: 0rem 5rem 0rem 0rem;
+    line-height: 30px;
+    font-family: "Quicksand", sans-serif;
+    /* margin-top: "10px"; */
 }
-
 
 .text-right {
     text-align: right;
-    /* padding: 3rem; */
-    width: 50%;
+
 }
 
+.zoom {
+    padding: 14px 55px;
+
+    border-radius: 40px;
+    background: orangered;
+    color: white;
+    border: 1px solid wheat;
+    margin: 2rem 5rem;
+    font-size: 17px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#colouring-box {
+    width: 80%;
+
+}
 
 .word-container {
     max-width: 800px;
     padding-top: 2rem;
     margin: 0 auto;
-    /* Center-align the container */
+
+}
+
+.waveImg {
+    width: 100%;
+    height: 400px;
+    margin-top: -40px;
 }
 
 .word-container h3 {
     text-align: center;
-    /* Center-align the text */
+    font-size: "20px";
     margin: 0;
-    /* Remove default margin */
     line-height: 1.4;
-    /* Increase line height for better readability */
+
 }
 
 .word-container h3>span {
     display: inline-block;
     margin: 2px 4px;
-    /* Adjust spacing between words */
+
 }
